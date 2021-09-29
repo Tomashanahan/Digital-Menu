@@ -1,0 +1,51 @@
+.desayuno{
+    height: 950px;
+}
+.desayuno__img{
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.secciones{
+    display: grid;
+    grid-template-columns: repeat(1, 350px);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    
+}
+
+.desayuno__h1{
+    color: #0E5D35;
+    font-size: 25px;
+    margin-bottom: 0;
+    background: #DDB7B4;
+    border-radius: 4px;
+    width: 350px;
+    margin: auto;
+    /* margin-top: 10px; */
+}
+
+.cajas__h2{
+    margin: 5px;
+    color: #0E5D35;
+}
+
+
+.volver{
+    margin: auto;
+    /* background: #994C10; */
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+    width: 175px;
+    color: #0E5D35;
+}
+    
+
+
+
+

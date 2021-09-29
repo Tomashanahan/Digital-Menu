@@ -1,0 +1,125 @@
+@import "_carta";
+/*----- DESAYUNO -----*/
+@import "desayuno/desayuno";
+@import "desayuno/clasico";
+@import "desayuno/liviano";
+@import "desayuno/saludable";
+@import "desayuno/energetico";
+@import "desayuno/fit";
+/*----- PICADAS -----*/
+@import "picadas/picadas";
+@import "picadas/clasica";
+@import "picadas/gourmet";
+@import "picadas/il_mercato";
+@import "picadas/degust_de_quesos.scss";
+/*----- PIZAS -----*/
+@import "pizzas/pizzas";
+@import "pizzas/calabreza";
+@import "pizzas/fugaza";
+@import "pizzas/mozzarela";
+@import "pizzas/napo";
+@import "pizzas/rucula";
+/*----- TRAGOS -----*/
+@import "tragos/tragos";
+/*----- CLAVE WI-FI -----*/
+@import "wi-fi/contraseña_wifi";
+/*----- BRUNCH -----*/
+@import "brunch/brunch";
+/*----- EMPANADAS -----*/
+@import "empanadas/empanadas";
+
+
+/*-------- ESTILOS NUEVOS --------*/
+@import "_carta_2";
+
+
+
+
+body{
+    background: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-family: 'Urbanist', sans-serif; */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+h1{
+    text-transform: uppercase;
+}
+
+
+.pedidos__h1{
+    text-decoration: underline;
+    /* background-color: #753605; */
+    color: black;
+    font-size: 35px;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 15px;
+}
+
+
+
+h3{
+    text-transform: uppercase;
+}
+
+
+.section_terraza{
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.terraza{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.planta_baja_{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding: 10px; */
+    text-align: center;
+}
+
+.mesa_terraza, .mesa_planta_baja{
+    height: 350px;
+    background: #994C10;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+input{
+    width: 90%;
+    padding: 8px;
+    border-radius: 3px;
+    border-style: none;
+}
+
+li{
+    list-style: none;
+    text-align: left;
+    margin: 5px;
+}
+
+ul{
+    padding-left: 0;
+}
+
+
+

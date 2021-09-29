@@ -1,0 +1,125 @@
+.cuerpo{
+    margin: 8px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.cajas{
+    /* background: #03622C; */
+    background: #DDB7B4;
+    /* border-radius: 4px; */
+    //background: white;
+    //border-bottom: 5px solid #DDB7B4;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* color: #DDB7B4; */
+    color: black;
+}
+
+.cajas__principal{
+    background: #DDB7B4;
+    border-radius: 4px;
+    //background: white;
+    //border-bottom: 5px solid #DDB7B4;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    /* color: #DDB7B4; */
+    color: black;
+    
+}
+
+.caja{
+    /* background: #03622C; */
+    //background: white;
+    /* border-radius: 4px; */
+    //border-top: 5px solid #DDB7B4;
+    //border-bottom: 5px solid #DDB7B4;
+    background: #DDB7B4;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: #03622C;
+    /* color: #DDB7B4; */
+    color: black;
+}
+
+.seccion{
+    display: grid;
+    grid-template-columns: repeat(1, 300px);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
+}
+.cajas__h1{
+    font-size: 22px;
+    margin: 0;
+    text-transform: uppercase;
+    color: #0E5D35;
+}
+
+
+svg{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.logo_2{
+    margin-top: 0;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+}
+
+.links:active, .links:visited, .links:focus{
+    color: white;
+}
+
+
+/* BOTON DE INICIO EN TODOS LOS ENCABEZADOS */
+
+
+.encabezado_inicio {
+    /* background-color: #984C10; */ 
+    display: flex; align-items: center; 
+    width: 350px; 
+    margin: auto; 
+    box-sizing: border-box; 
+    margin-top: 10px; 
+    border-radius: 5px; padding: 8px;
+}
+
+
+@media(max-width: 370px){
+    .desayuno__h1{
+        width: 99%;
+    }
+    .desayuno__img{
+        width: 99%;
+    }
+    .secciones{
+        width: 99%;
+        grid-template-columns: repeat(1, 100%);
+    }
+}
+@media(max-width: 280px){
+    .desayuno__h1{
+        width: 99%;
+    }
+    .desayuno__img, .logo_2{
+        width: 99%;
+    }
+    .secciones, .seccion{
+        width: 99%;
+        grid-template-columns: repeat(1, 100%);
+    }
+}
+
+
+
